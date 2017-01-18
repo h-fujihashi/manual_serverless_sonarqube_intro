@@ -1,4 +1,4 @@
-## Serverless Framework環境下でのユニットテスト環境
+## Serverless Framework環境下でのユニットテスト環境構築
 - 本稿はローカル環境下でのテストを想定しています。
 - SonarQubeサーバーに分析情報を送信出来た時点で本稿を書いているので、結構曖昧な点があるかと思われます。
 - 今回立ち上げるSonarQubeのサーバーはhomebrewを使用してパッケージを揃え、ローカルからアクセスしています。
@@ -181,6 +181,7 @@
 
     4. `sonar console`
     5. ブラウザから http://localhost:9000/ を開いて表示されるかを確認。
+    6. 6. SonarQubeサーバー停止時には別のターミナルから`sonar stop`
 
 
 - SonarScannerの準備
