@@ -30,6 +30,7 @@
     3. `serverless -v`
         - バージョンが表示される
     4. `serverless create --template aws-nodejs`
+    
         >Serverless Framework
         >https://serverless.com/
 
@@ -130,8 +131,10 @@
 
 - homebrewのインストールと各homebrewパッケージをインストールします
     1. `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+    
         >Homebrew macOS 用パッケージマネージャー
         >http://brew.sh/index_ja.html
+        
     2. `brew install sonar`
     3. `brew install sonar-scanner`
     4. `brew install mysql`
