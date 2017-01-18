@@ -181,7 +181,7 @@
 
     4. `sonar console`
     5. ブラウザから http://localhost:9000/ を開いて表示されるかを確認。
-    6. 6. SonarQubeサーバー停止時には別のターミナルから`sonar stop`
+    6. SonarQubeサーバー停止時には別のターミナルから`sonar stop`
 
 
 - SonarScannerの準備
